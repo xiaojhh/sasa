@@ -1,0 +1,34 @@
+[
+    {
+        "img1": "http://cn02.alicdn.sasa.com/public/images/6f/86/fa/8f3f8e187101289005998cac427dfe217bb96a41.jpg?1489391160#h",
+        "img2": "http://cn02.alicdn.sasa.com/public/images/e9/63/11/a76d94c030dfa116db0975d157bc55cc51c551ed.jpg?1489391160#h",
+        "img3": "http://cn03.alicdn.sasa.com/public/images/53/9d/f0/002e5acc31552d6c98ad342d0e4ddcd09185e810.jpg?1489391160#h",
+        "price1": "￥230.0",
+        "price2": "￥720.0",
+        "price3": "3.2折"
+    },
+    {
+        "img1": "http://cn03.alicdn.sasa.com/public/images/68/d8/79/aec7e4db5fbf7b2e3aae8a83db81b435159c3848.jpg?1502179704#h",
+        "img2": "http://cn03.alicdn.sasa.com/public/images/89/1f/ea/9024eac6784c1aa6a2cd4ae27115c1b441bdc408.jpg?1502179704#h",
+        "img3": "http://cn03.alicdn.sasa.com/public/images/68/d8/79/aec7e4db5fbf7b2e3aae8a83db81b435159c3848.jpg?1502179704#h",
+        "price1": "￥10.0",
+        "price2": "￥210.0",
+        "price3": "3.0折"
+    },
+    {
+        "img1": "http://cn04.alicdn.sasa.com/public/images/9c/42/a1/4353909168b03961f7c4b0bed3ddb4511c7e929d.jpg?1476167874#h",
+        "img2": "http://cn03.alicdn.sasa.com/public/images/1a/84/2e/174305e68ec5abf25fef0dc624a3416d79f9e2cd.jpg?1476167873#h",
+        "img3": "http://cn04.alicdn.sasa.com/public/images/b0/89/d7/32fdf0bbca652fd3bbd18252c621f1bf8852dadb.jpg?1476167874#h",
+        "price1": "￥530.0",
+        "price2": "￥520.0",
+        "price3": "4.2折"
+    },
+    {
+        "img1": "http://cn02.alicdn.sasa.com/public/images/a6/e7/da/68d21024b4b726cde6e4a8d14c6cf0f4e9d35413.jpg?1485397320#h",
+        "img2": "http://cn04.alicdn.sasa.com/public/images/da/53/ee/062cc73eb99bf7c4c91f93c62f8923713786f70b.jpg?1485397320#h",
+        "img3": "http://cn02.alicdn.sasa.com/public/images/bb/f2/9f/734be99e807606c3c297c1ec9db257043fb6e576.jpg?1485397320#h",
+        "price1": "￥130.0",
+        "price2": "￥7120.0",
+        "price3": "4.2折"
+    }
+]

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../font_396916_8ix4v064u606n7b9/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/topbar.css"/>
+		<link rel="stylesheet" href="../css/enroll.css" />
+	</head>	
+	<script src="../libs/require.js"></script>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<body>
+		<div class="top_bar" id="top_bar">
+		</div>
+		<!--以上是顶部注册登录-->
+		<div class ="header_page">
+			<div class="header_inner">
+				<a href=""><img src="https://cdnec.sasa.com/public/images/d2/a9/ab/de63e200c54345ad02ff3d6de8ce4eb97fafdf87.png?1470039647#w" alt="" /></a>
+			</div>
+		</div>
+		<!--图标-->
+		<div class= "main">
+			<div class="main_inner clearfix">
+				<div class="main_login">
+					<div class="log_name clearfix">
+						<span>注册账号</span>
+						<span>已有莎莎网账号？</span>	
+						<a href="">立即登录</a>
+					</div>
+					<div class="user_name" id="user_name">
+						<input type="text" placeholder="请输入邮箱/手机号，最少5个字符" value="994825061@qq.com"/>
+						<p><span>!</span>请填写正确邮箱/手机</p>
+					</div>
+					<div class="user_name user_pass" id="user_pass" >
+						<input type="password" placeholder="请输入密码6-16位字母和数字组合" value="123456"/>
+						<p><span class="user_pass_span">!</span>请填写正确密码</p>
+					</div>
+					<div class="user_name user_pass" id="user_pass1">
+						<input type="password" placeholder="再次填写密码" value="123456"/>
+						<p><span class="user_pass_span">!</span>请填写正确密码</p>
+					</div>
+					<div class="verify clearfix">
+						<input type="text" placeholder="填写验证码"/>
+						<img src="https://www.sasa.com/index-gen_vcode-b2c-4.html?1506179808246" alt="" />
+						<span>看不清？换一张</span>
+						<p><span>!</span>请填写正确的验证码</p>
+					</div>
+					<div class="clause clearfix">
+						<input type="checkbox" checked="checked"/>
+						<p>同意
+							<a href="">莎莎网使用条款</a>
+							和
+							<a href="">隐私保护政策</a>
+						</p>
+					</div>
+					<div class="clause clearfix clause1">
+						<input type="checkbox" checked="checked"/>
+						<p>
+							<a href="">您同意接收莎莎发送的与产品或者服务有关的推广宣传资料</a>
+						</p>
+					</div>
+					<div class="login_into" id="login_into">
+						<a href="##">注册</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--主体-->
+		<div class="showRes" id="showRes">注册成功</div>
+		
+	</body>
+	<script type="text/javascript">
+		require(["../manage/enrollManage"]);
+	</script>
+</html>

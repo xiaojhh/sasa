@@ -1,0 +1,149 @@
+.header_page {
+  height: 95px; }
+  .header_page .header_inner {
+    width: 1095px;
+    margin: 0 auto;
+    height: 95px; }
+    .header_page .header_inner a {
+      display: block;
+      margin-top: 20px; }
+    .header_page .header_inner img {
+      float: left; }
+
+.main_inner {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  background: url("https://cdnec.sasa.com/public/images/87/8f/71/cecc204b4820bd74bf72910e6ba440fae2b83342.jpg?1487821734#w") no-repeat left center;
+  width: 1095px;
+  margin: 0 auto; }
+  .main_inner .main_login {
+    float: right;
+    width: 350px;
+    padding: 35px;
+    margin-right: 68px;
+    box-shadow: 0 0 15px #e1e1e1; }
+  .main_inner .log_name span:nth-child(1) {
+    font-size: 21px;
+    margin-right: 100px;
+    color: #5a5d6c;
+    float: left; }
+  .main_inner .log_name span:nth-child(2) {
+    font-size: 12px; }
+  .main_inner .log_name a {
+    color: #fa3778; }
+  .main_inner .log_name {
+    margin-bottom: 40px; }
+  .main_inner .user_name {
+    position: relative; }
+    .main_inner .user_name p {
+      display: none;
+      top: 47px;
+      left: 0px;
+      position: absolute; }
+      .main_inner .user_name p span {
+        margin-right: 5px;
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        color: #fff;
+        background: #fa3778;
+        font-size: 12px;
+        text-align: center;
+        line-height: 14px;
+        font-weight: bold; }
+    .main_inner .user_name input {
+      outline: none;
+      border: 0;
+      color: #ccc;
+      text-indent: 10px;
+      border: 1px solid #CCCCCC;
+      margin-bottom: 26px;
+      width: 100%;
+      height: 36px;
+      line-height: 36px;
+      padding: 4px; }
+      .main_inner .user_name input:hover {
+        border: 1px solid #fa3778;
+        box-shadow: 0px 0px 5px #f99; }
+  .main_inner .user_pass p {
+    display: none; }
+  .main_inner .user_pass input:hover {
+    border: 1px solid #fa3778;
+    box-shadow: 0px 0px 5px #f99; }
+  .main_inner .verify {
+    position: relative; }
+    .main_inner .verify p {
+      display: none;
+      line-height: 14px;
+      top: 47px;
+      left: 0px;
+      position: absolute; }
+      .main_inner .verify p span {
+        margin-right: 5px;
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        color: #fff;
+        background: #fa3778;
+        font-size: 12px;
+        text-align: center;
+        line-height: 14px;
+        font-weight: bold; }
+    .main_inner .verify input {
+      text-indent: 10px;
+      float: left;
+      outline: none;
+      border: 0;
+      color: #ccc;
+      height: 36px;
+      line-height: 36px;
+      border: 1px solid #CCCCCC; }
+      .main_inner .verify input:hover {
+        border: 1px solid #fa3778;
+        box-shadow: 0px 0px 5px #f99; }
+    .main_inner .verify img {
+      width: 80px;
+      height: 36px;
+      float: left; }
+    .main_inner .verify span {
+      font-size: 12px;
+      line-height: 36px;
+      height: 36px;
+      color: #666;
+      float: left; }
+  .main_inner .clause {
+    margin-top: 35px; }
+    .main_inner .clause input {
+      float: left;
+      margin-top: 5px; }
+    .main_inner .clause p {
+      float: left; }
+      .main_inner .clause p a {
+        margin-left: 3px;
+        margin-right: 3px; }
+  .main_inner .clause1 p {
+    float: none; }
+  .main_inner .login_into a {
+    display: block;
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: #fa3778; }
+
+.showRes {
+  top: 200px;
+  left: 200px;
+  background: #fff;
+  position: absolute;
+  z-index: 999;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 24px;
+  text-align: center;
+  box-shadow: 0px 0px 20px #CCCCCC; }

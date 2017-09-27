@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../font_396916_8ix4v064u606n7b9/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/topbar.css"/>
+		<link rel="stylesheet" type="text/css" href="/css/login.css"/>
+	</head>
+	<script src="../libs/require.js"></script>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<body>
+		<div class="top_bar" id="top_bar">
+		</div>
+		<!--以上是顶部注册登录-->
+		<div class ="header_page">
+			<div class="header_inner">
+				<a href=""><img src="https://cdnec.sasa.com/public/images/d2/a9/ab/de63e200c54345ad02ff3d6de8ce4eb97fafdf87.png?1470039647#w" alt="" /></a>
+			</div>
+		</div>
+		<!--图标-->
+		<div class= "main">
+			<div class="main_inner clearfix">
+				<div class="main_login">
+					<div class="log_name clearfix">
+						<span>用户名</span>
+						<span>还没有莎莎账号？</span>	
+						<a href="">立即注册</a>
+					</div>
+					<div class="user_name" id="user_name">
+						<input type="text" placeholder="邮箱/手机"/>
+						<p><span>!</span>请填写邮箱/手机</p>
+					</div>
+					<div class="user_name user_pass" id="user_pass">
+						<input type="password" placeholder="填写密码"/>
+						<p><span class="user_pass_span">!</span>请填写密码</p>
+					</div>
+					<div class="verify clearfix">
+						<input type="text" placeholder="填写图片验证信息"/>
+						<img src="https://www.sasa.com/index-gen_vcode-b2c-4.html?1506179808246" alt="" />
+						<span>看不清？换一张</span>
+						<p><span>!</span>请填写图片验证消息</p>
+					</div>
+					<div class="look_pass clearfix">
+						<input type="checkbox" id="checkBox"/>
+						<span>记住我</span>
+						<a href="">忘记密码？</a>
+					</div>
+					<div class="login_into" id="login_into">
+						<a href="##">登录</a>
+					</div>
+					<div class="login_else">
+						<p>第三方登录方式</p>
+						<ul>
+							<li>
+								<a href="">
+									<img src="https://www.sasa.com/themes/default/pic/login01.jpg" alt="" />
+									QQ登录
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="https://www.sasa.com/themes/default/pic/login02.jpg" alt="" />
+									微博登录
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="https://www.sasa.com/themes/default/pic/login03.jpg" alt="" />
+									支付宝登录
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--主体-->
+		
+	</body>
+	<script type="text/javascript">
+		//console.log(require);
+		require([
+				"../libs/jquery.cookie.js",
+				"../manage/loginManage"
+				]
+			);
+	</script>
+</html>

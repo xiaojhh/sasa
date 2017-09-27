@@ -1,0 +1,111 @@
+.time_box {
+  height: 40px;
+  background: #3e3e3e; }
+  .time_box .time_box_inner {
+    width: 1090px;
+    margin: 0 auto; }
+    .time_box .time_box_inner div {
+      float: left;
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      color: #ffffff; }
+    .time_box .time_box_inner .time_box_l {
+      margin-left: 300px;
+      margin-right: 100px; }
+    .time_box .time_box_inner .time_box_r {
+      float: right;
+      margin-right: 100px; }
+
+.ss_01 {
+  height: 641px;
+  background: url("http://cdnec.sasa.com/public/promoImgs/2017/09/20170926_CN_midgift/KV.jpg") no-repeat center 0; }
+
+.ss_02 {
+  height: 1166px;
+  min-width: 1200px;
+  background: url("http://cdnec.sasa.com/public/promoImgs/2017/09/20170926_CN_midgift/body_1.jpg") no-repeat center 0px #daf1ff; }
+  .ss_02 .ss_re {
+    width: 1090px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 45px; }
+    .ss_02 .ss_re .item_1 {
+      position: absolute;
+      left: 352px;
+      top: 231px;
+      z-index: 4;
+      opacity: 1; }
+      .ss_02 .ss_re .item_1 .item_1_a {
+        left: -224px;
+        position: absolute;
+        width: 180px;
+        height: 180px; }
+        .ss_02 .ss_re .item_1 .item_1_a img {
+          display: none; }
+      .ss_02 .ss_re .item_1 .item_1_a:hover img {
+        display: block; }
+      .ss_02 .ss_re .item_1 .item_1_price {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-size: 35px;
+        line-height: 90px;
+        font-weight: bold;
+        color: #111;
+        font-family: Arial, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+        top: 120px;
+        left: 80px; }
+      .ss_02 .ss_re .item_1 .item_1_a1 {
+        font-family: Arial;
+        color: #fff;
+        font-size: 17px;
+        background: #2d2926;
+        width: 110px;
+        height: 26px;
+        padding: 7px 5px 0px 5px;
+        text-decoration: none;
+        position: absolute;
+        text-align: center;
+        font-weight: 100;
+        border: 1px solid #2d2926;
+        top: 200px;
+        left: 0px; }
+      .ss_02 .ss_re .item_1 .item_1_a1:hover {
+        color: #000;
+        background: #fff;
+        transition: all 1s; }
+    .ss_02 .ss_re .item_2 {
+      top: 231px;
+      left: 840px; }
+    .ss_02 .ss_re .item_3 {
+      top: 546px; }
+    .ss_02 .ss_re .item_4 {
+      top: 546px;
+      left: 840px; }
+    .ss_02 .ss_re .item_5 {
+      top: 873px; }
+    .ss_02 .ss_re .item_6 {
+      top: 873px;
+      left: 840px; }
+
+.ss_03 {
+  height: 1289px;
+  min-width: 1200px;
+  background: url("http://cdnec.sasa.com/public/promoImgs/2017/09/20170926_CN_midgift/body_2.jpg?v2") no-repeat center 0px #daf1ff; }
+
+.ss_03 .ss_re {
+  top: 40px;
+  left: 0px; }
+
+.page_temaipage {
+  background: #DDDDDD; }
+  .page_temaipage .page_inner {
+    width: 1090px;
+    margin: 0 auto; }
+    .page_temaipage .page_inner .page_inner_img {
+      padding: 20px 0px; }
+
+.all_list {
+  width: 1090px; }

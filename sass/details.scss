@@ -1,0 +1,541 @@
+.main{
+    background:#ebebeb;
+    
+}
+.main_inner{
+    width:1200px;
+    margin:0 auto;
+}
+.bread_crumbs{
+    padding:10px 0px;
+    p{
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+        overflow: hidden;
+        margin: 15px auto;
+        color: #888888;
+        span{
+            margin: 0px 5px;
+        }
+    }
+}
+.seckill_time2{
+     background: #bf9b5f;
+    height: 58px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 15px;
+    position: relative;
+}
+.sl{
+    float:left;
+     height:50px
+}
+.sl>i{
+    display: block;
+    font-size: 30px;
+}
+.sl>span{
+      
+    top: -50px;
+    background: #bf9b5f;
+    height: 58px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 15px;
+    position: relative;
+    left: 32px;
+}
+.sr{
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    span{
+        font-size: 24px;
+    }
+}
+
+.item_time1{
+    position: relative;
+    color: #fff;
+    top: -100px;
+    left: 380px;
+}
+.product_l_t{
+    height:108px;
+    i{
+        width: 68px;
+        height: 68px;
+        padding: 40px 40px 0 0;
+         font-size: 48px;
+        color: #fff;
+        margin: 10px 0 0 35px;
+        display: block;
+        text-align: right;
+        background: url("http://cn01.alicdn.sasa.com/themes/default/images/tips.png") no-repeat;
+        background-position: 0 -489px;
+    }
+    
+}
+.product_container{
+    background: #fff;
+    padding:10px;
+}
+.product_l{
+    width:620px;
+}
+.product_box{
+    position: relative;
+    //background: #DDDDDD;
+    width:500px;
+    height:300px;
+    .product_img{
+        position: relative;
+        width:300px;
+        height:300px;
+        margin:0 auto;
+        background:url("http://cn04.alicdn.sasa.com/public/images/8e/ee/dc/71094d546748af876c2875832d7601e2a0b4aa29.jpg?1488881726#h") no-repeat;
+        
+    }
+    .box_keep{
+        width:100%;
+        height:100%;
+        //background: rgba(100,100,100,.3);
+        position:relative;
+        z-index: 20;
+    }
+    .box_blue{
+        display: none;
+        position:absolute;
+        top:0px;
+        left:0px;
+        width:100px;
+        height:100px;
+        background: rgba(135,208,254,0.6);
+    }
+    .product_img_big{
+        display: none;
+        width:240px;
+        height:240px;
+        position: absolute;
+        z-index: 200;
+       // background: #008000;
+        top:0px;
+        left: 500px;
+         overflow: hidden;
+       border:1px solid #ddd;
+        .product_img_show{
+                position: absolute;
+                top:0px;
+                left: 0px;
+              width:600px;
+               height:600px;
+           
+            img{
+                width:600px;
+                height:600px;
+            }
+        }
+    }   
+}
+.product_tips{
+    span{
+        margin-left: 50px;
+        
+        height: 30px;
+        line-height: 30px;
+        float:left;
+        img{
+            float:left;
+        }
+    }
+}
+.product_list{
+    padding:0px 20px;
+    position: relative;
+    margin-top:20px;
+    margin-left:30px;
+    width:450px;
+    height:110px;
+    overflow: hidden;
+    .list_l{
+        color:#f99;
+        display:block;
+       position:absolute;
+       left:0px;
+       top:30px;
+       width:20px;
+       height:20px;
+       font-weight: bolder;
+       font-size: 24px; 
+    }
+    .list_r{
+        top:30px;
+        color:#f99;
+         top:30px;
+        display: block;
+        position: absolute;
+         font-weight: bolder;
+       font-size: 24px; 
+        width:20px;
+       height:20px;
+       right:-5px
+    }
+}
+.product_show{
+    
+    width:700px;
+    height:110px;
+    div{
+           margin-left: 5px;
+          text-align: center;
+          line-height: 100px;
+          float: left;
+          width:100px;
+          height:100px;
+          border:1px solid #ddd;
+          margin-right: 10px;
+            img{
+                margin-left:10px;
+                margin-top:10px;
+                line-height: 100px;
+                text-align: center;
+                float: left;
+                width:80px;
+                height:80px;
+                background-size: 100% 100%;
+                
+            }
+       }  
+}
+.product_list_item{
+    box-sizing: border-box;
+}
+.product_l{
+    float:left;
+    width:550px;   
+}
+.product_r{
+    width:570px;
+   float:left;
+}
+.product_titles{
+    margin-top: 30px;
+    text-indent: 44px;
+    padding-bottom: 30px;
+    line-height: 1.2;
+    text-align: left;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.product_titles_p{
+    color: #505a64;
+    font-size: 18px;
+    line-height: 26px;
+}
+.product_add{
+    height:20px;
+    line-height: 20px;
+   margin-top:20px;
+   a{
+       font-weight: bolder;
+       text-align: center;
+       line-height: 16px;
+       font-size:20px;
+       width:20px;
+       height:20px;
+      background: #ddd;
+       display: inline-block;
+   }
+   input{
+       text-indent: 15px;
+       position: relative;
+       top:-2px;
+       width:40px;
+       height:20px;
+       box-sizing: border-box;
+   }
+}
+.product_item{
+    margin-top: 60px;
+    span{
+        float: left;
+        
+    }
+    
+}
+.product_item span:nth-child(1){
+    height: 24px;
+    color: #888888;
+    padding-left: 5px;
+}
+.product_item span:nth-child(2){
+    line-height: 8px;
+    height: 24px;
+    color: #f99;
+   font-size: 35px;
+   margin-left: 5px;
+   margin-right: 10px;
+}
+.product_item span:nth-child(3){
+       color: #888888;
+    margin-left:5px;
+    margin-right: 5px;
+    text-decoration: line-through;
+}
+.product_item span:nth-child(4){
+       color: #888888;
+    text-decoration: line-through;
+}
+.product_buy{
+    margin-top: 50px;
+}
+.product_buy a:nth-child(1){
+  
+    margin-right: 15px;
+    width: 220px;
+    height: 50px;
+    background: #ec3e7d;
+    line-height: 50px;
+    overflow: hidden;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+.product_buy a:nth-child(2){
+    margin-left: 20px;
+    border: 1px solid #dedede;
+    padding: 15px 18px;
+    color: #999999;
+}
+.product_pl{
+    margin-top: 20px;
+    padding:30px 0px;
+    border-bottom: 1px solid #ddd;
+}
+.fengxing{
+    margin-top: 30px;
+}
+.fengxing_l{
+    float: left;
+    i{
+        margin-right: 20px;
+    }
+}
+.fengxing_r{
+    float:right;
+}
+.fengxing_r li{
+    
+    margin-right: 10px;
+    float:left;
+    i{
+        font-size: 24px;
+    }
+}
+ .fengxing_r li:nth-child(2) i{
+     color: #0000FF;
+ }
+ 
+ .fengxing_r li:nth-child(3) i{
+     color: #F43E7D;
+ }
+ 
+ .fengxing_r li:nth-child(4) i{
+     color: #DF5000;
+ }
+ 
+ .fengxing_r li:nth-child(5) i{
+     color: #9B21D9;
+ }
+.fengxing_r li:nth-child(6) i{
+     color: #131345;
+ }
+ .pb_l{
+     float: left;
+ }
+ .pb_r{
+    
+     width:950px;
+     float:right;
+ }
+ .pb_nav{
+      background: #fff;
+     padding:10px;
+ }
+.product_bottom{
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+.pb_nav{
+    a{
+        float:left;
+        color: #555c67;
+        border: 2px solid white;
+        display: block;
+        padding: 2px 26px;
+        height: 42px;
+        line-height: 42px;
+        font-size: 16px;
+    }
+    span{
+        height: 42px;
+        line-height: 42px;
+        float:right;
+        margin-left: 20px;
+    }
+}
+.pb_nav>span:nth-of-type(2){
+      margin-right: 40px;
+   color: #ec3e7d;
+   font-size: 24px;
+   
+}
+.pb_nav>span:nth-of-type(1){
+    width:120px;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    
+   //margin-right: 50px;
+   background: #ec3e7d;
+   
+}
+.pb_nav_act{
+    border-bottom:2px solid #DF5000!important;
+}
+.goods_cs{
+    padding:10px 0px;
+    background: #FFF;
+    margin-top: 30px;
+}
+.goods_cs_img{
+    //padding:0px 30px;
+    background: url("http://cn01.alicdn.sasa.com/themes/default/images/probt.png") no-repeat 110px 3px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-left: 20px;
+    font-size: 21px;
+    border-left: 2px solid #F43E7D;
+}
+.goods_cs_ul{
+    padding:30px 45px;
+}
+.goods_cs_ul>li>span:nth-child(1){
+    display: inline-block;
+    width:260px;
+    margin-bottom: 20px;
+    
+}
+.goods_cs_img{
+        background: url("http://cn01.alicdn.sasa.com/themes/default/images/probt.png") no-repeat 110px 3px;
+}
+.goods_xq_p{
+    padding:40px 30px;
+}
+.goods_xq_p>p:nth-child(1){
+    font-weight: bold;
+    color: #3e3e3e;
+        font-size: small;
+}
+.goods_xq_p>:nth-child(2){
+    text-indent:24px;
+     font-weight: bold;
+    color: #3e3e3e;
+        font-size: small;
+}
+.goods_xq_p>:nth-child(3){
+      
+    font-size: small;
+    color:#3e3e3e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.goods_xq_p>:nth-child(4){
+     
+    font-size: small;
+    color:#3e3e3e;
+    text-indent:24px
+    
+}
+.xiangqi{
+   margin-top:20px;
+   padding-left:10px;
+}
+.use_medthod{
+    margin-top: 10px;
+    text-indent:24px;
+     font-weight: bold;
+    color: #3e3e3e;
+        font-size: small;
+}
+.goods_cs_img{
+   background: url("http://cn01.alicdn.sasa.com/themes/default/images/probt.png") no-repeat 110px 3px;
+   background-position: 110px -146px;
+}
+.goods_grades{
+    margin-top: 60px;
+    .gl{
+        margin-left: 50px;
+        margin-right: 60px;
+        float:left;
+        
+            .ggs1{
+                font-size: 36px;
+                font-weight: bold;
+                color: #db3f7e;
+            }
+            .ggs2{
+                 font-size: 24px;
+                font-weight: bold;
+                color: #db3f7e;
+            }
+        
+    }
+    .gr{
+        float:left;
+    }
+}
+.gl_pp{
+    margin-left: 50px;
+    
+}
+.gl_pp1{
+    margin-left: 20px;
+}
+.pb_nav_move{
+    width: 921px;
+    box-shadow: 5px 5px 5px #ddd;
+    position: fixed;
+    top: 0px;
+    right: 40px;
+    
+    position: fixed;
+    top:0px;
+    right:40px;
+}
+.product_buy{
+        height: 50px;
+    position: relative;
+}
+.product_buy_div{
+    display: none;
+    display: block;
+    top: -250px;
+    right: -238px;
+    box-shadow: 5px 5px 5px #ddd;
+    width: 196px;
+    height: 196px;
+    position: relative;
+    img{
+        width:100%;
+        height:100%;
+    }
+}
+

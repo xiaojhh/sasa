@@ -1,0 +1,283 @@
+.gallery {
+  padding: 15px 0px;
+  background: #f9f9f9; }
+  .gallery .gallery_inner {
+    width: 1090px;
+    margin: 0px auto; }
+    .gallery .gallery_inner .mian_left {
+      width: 253px;
+      float: left; }
+      .gallery .gallery_inner .mian_left .cpfl_bt {
+        height: 48px;
+        border-left: 5px solid #c69a62;
+        background: #fff;
+        line-height: 48px;
+        font-size: 18px;
+        color: #404040;
+        padding-left: 30px;
+        font-weight: normal; }
+    .gallery .gallery_inner .gray_box .gray_box_li {
+      background: #e8e6e7;
+      border-top: 1px dotted #f2f2f2;
+      font: normal 14px/50px \5fae\8f6f\96c5\9ed1;
+      cursor: pointer;
+      position: relative;
+      margin-top: -1px; }
+      .gallery .gallery_inner .gray_box .gray_box_li i {
+        position: absolute;
+        top: 16px;
+        overflow: hidden;
+        width: 16px;
+        height: 16px;
+        margin-top: 1px;
+        background: url("http://cn01.alicdn.sasa.com/themes/default/images/icon-jt.png") no-repeat 0 0;
+        cursor: pointer;
+        background-position: -17px 0px; }
+      .gallery .gallery_inner .gray_box .gray_box_li .gray_box_a {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding-left: 34px;
+        color: #565d67;
+        overflow: hidden; }
+      .gallery .gallery_inner .gray_box .gray_box_li .gray_box_dowm {
+        display: none;
+        background: #fff;
+        padding: 10px 0px 15px 0;
+        overflow: hidden; }
+        .gallery .gallery_inner .gray_box .gray_box_li .gray_box_dowm .gray_box_dowm_li {
+          text-indent: 26px;
+          border-top: 0;
+          background: #fff;
+          font: normal 14px/32px \5fae\8f6f\96c5\9ed1;
+          width: 150px;
+          float: left;
+          border-left: 1px dotted #ddd;
+          margin-left: -1px; }
+          .gallery .gallery_inner .gray_box .gray_box_li .gray_box_dowm .gray_box_dowm_li span {
+            width: 8px;
+            height: 10px;
+            background: url("http://cn01.alicdn.sasa.com/themes/default/images/icon-jt.png") -74px -3px no-repeat;
+            display: inline-block;
+            margin-right: 5px; }
+
+.mian_right {
+  float: left;
+  margin-left: 20px;
+  width: 810px; }
+  .mian_right .gallery_filter {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background: #fff; }
+  .mian_right .gallery_filter span:nth-child(1) {
+    float: left;
+    margin-right: 3px;
+    width: 115px;
+    text-indent: 16px;
+    color: #8d8d8d; }
+  .mian_right .gallery_filter span:nth-child(2) {
+    float: right;
+    margin-right: 3px;
+    width: 115px;
+    text-indent: 16px;
+    color: #c69a62; }
+  .mian_right .gallery_filter_class {
+    background: #fff;
+    border-bottom: 1px dotted #ddd; }
+    .mian_right .gallery_filter_class dt {
+      float: left;
+      margin-right: 3px;
+      width: 118px;
+      text-indent: 16px;
+      color: #8d8d8d; }
+    .mian_right .gallery_filter_class .gallery_r {
+      float: right;
+      margin-right: 3px;
+      width: 115px;
+      text-indent: 16px;
+      color: #c69a62; }
+      .mian_right .gallery_filter_class .gallery_r i {
+        margin-top: -20px;
+        float: right;
+        margin-right: 42px; }
+    .mian_right .gallery_filter_class .gallery_filter_dd {
+      padding-top: 7px;
+      margin-left: 120px;
+      width: 55%;
+      padding-bottom: 10px; }
+      .mian_right .gallery_filter_class .gallery_filter_dd .span_nth {
+        padding: 3px 0;
+        display: inline-block;
+        width: 120px;
+        font-size: 12px; }
+      .mian_right .gallery_filter_class .gallery_filter_dd .gallery_filter_span {
+        display: none; }
+
+.gallery_p {
+  float: right;
+  font-size: 12px;
+  margin-right: 30px; }
+
+.gallery_more_dl {
+  display: none; }
+
+.goods_list {
+  margin-top: 20px;
+  width: 811px;
+  position: relative; }
+
+.gallery_more {
+  background: #FFF; }
+
+.all_list li {
+  margin-right: 17px;
+  margin-bottom: 17px;
+  float: left;
+  width: 253px;
+  position: relative;
+  z-index: 10; }
+  .all_list li .goods_item {
+    float: left;
+    background: #fff;
+    width: 253px; }
+    .all_list li .goods_item .item_t {
+      position: relative;
+      z-index: 10;
+      width: 253px;
+      height: 253px; }
+      .all_list li .goods_item .item_t img {
+        width: 100%;
+        height: 100%; }
+  .all_list li .item_m {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 10px 15px;
+    color: #858587; }
+  .all_list li .item_m span:nth-child(1) {
+    float: left;
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ec3e7d; }
+  .all_list li .item_m span:nth-child(2) {
+    float: left;
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px; }
+  .all_list li .item_m span:nth-child(3) {
+    float: right;
+    color: #c69a62;
+    margin-top: 2px; }
+  .all_list li .item_b {
+    background: #FFF;
+    padding: 12px 15px;
+    overflow: hidden; }
+  .all_list li .item_b p:nth-child(1) {
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+    line-height: 20px;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    color: #404040; }
+  .all_list li .item_b p:nth-child(2) {
+    color: #404040;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 13px;
+    height: 40px; }
+  .all_list li .item_b p:nth-child(3) {
+    color: #404040; }
+  .all_list li .item_b p:nth-child(4) {
+    font-size: 12px;
+    color: #B9B9B9;
+    padding-top: 5px; }
+  .all_list li .item_li {
+    background: #fff;
+    padding: 10px 15px; }
+  .all_list li .item_r {
+    width: 84px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    padding: 0;
+    border-left: 1px solid #eee; }
+    .all_list li .item_r dl {
+      height: 253px; }
+      .all_list li .item_r dl dd {
+        width: 84px;
+        height: 84px; }
+        .all_list li .item_r dl dd img {
+          width: 100%;
+          height: 100%; }
+  .all_list li .item_r_act {
+    border: 3px solid #c69a62; }
+  .all_list li .item_r dl dd {
+    box-sizing: border-box; }
+  .all_list li .item_buy {
+    opacity: 0;
+    margin: 10px auto;
+    display: block;
+    width: 150px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #FC3F83;
+    color: #fff;
+    font-size: 16px; }
+
+.item_time {
+  position: absolute;
+  z-index: 51;
+  top: 0;
+  left: 0;
+  width: 138px;
+  opacity: 0.5;
+  background: #414141;
+  color: #fff;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  padding: 4px 10px;
+  margin-bottom: 15px; }
+
+.divShowBuy {
+  display: none;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 40px;
+  z-index: 999;
+  padding: 40px 10px;
+  background: #fff;
+  box-shadow: -0.3em 0 0.4em 0.04em rgba(0, 0, 0, 0.2); }
+  .divShowBuy .r_buy_item {
+    height: 100px; }
+    .divShowBuy .r_buy_item .buy_l {
+      width: 150px;
+      height: 100px;
+      float: left; }
+      .divShowBuy .r_buy_item .buy_l img {
+        width: 100%;
+        height: 100%; }
+    .divShowBuy .r_buy_item .buy_r {
+      float: left; }
+    .divShowBuy .r_buy_item .buy_r p span {
+      padding-left: 10px;
+      display: block; }
+    .divShowBuy .r_buy_item .buy_r p span:nth-child(1) {
+      font-size: 24px;
+      color: #DF5000; }
+    .divShowBuy .r_buy_item .buy_r p span:nth-child(2) {
+      font-size: 14px;
+      color: #f99; }
+    .divShowBuy .r_buy_item .buy_r p span:nth-child(3) {
+      font-size: 24px;
+      color: #DF5000; }
+    .divShowBuy .r_buy_item .buy_r p span:nth-child(4) {
+      font-size: 14px;
+      color: #f99; }
